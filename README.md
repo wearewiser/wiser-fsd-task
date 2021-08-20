@@ -14,7 +14,7 @@ Build an image gallery by fetching data from the NASA [Astronomy Picture of the 
 
 There should be two routes that should display two page components: `Home` and `ImageDetails`.
 
-###Home:
+### Home:
 
 - Display 6 random images from the NASA APOD API, along with their corresponding titles.
 
