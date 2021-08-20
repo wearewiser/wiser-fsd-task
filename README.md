@@ -2,7 +2,7 @@
 
 ## About this task
 
-This task should be completed to be considered for the Front End Developer position at Wiser. The task will test your knowledge of JavaScript (React), styling and ability to accurately translate design files into code.
+This task should be completed to be considered for the Front End Developer position at Wiser. The task will test your knowledge of JavaScript (ReactJS), styling and ability to accurately translate design files into code.
 
 ## Instructions
 
@@ -29,17 +29,20 @@ There should be two routes that should display two page components: `Home` and `
 
 ![ImageDetails](public/image-details.png)
 
-###Notes:
-
-- The app should be responsive for desktop and mobile devices.
-- The app should be cross-browser compatible, the latest versions of Safari, Firefox and Chrome is fine.
 
 ###Bonus points:
 
-- The `ImageInfo` route path should use the `title` of the image that was clicked. For example, the path coud be `/galaxies-in-pegasus`, opposed to a generic number ID.
-- Sometimes the APOD API returns a video instead of an image. If this happens, the app should display the video thumbnail, instead of the video.
+- The `ImageDetails` route path should use the `title` of the image that was clicked. For example in the above design, the path would be `/spiral-galaxy-ngc-1232`, opposed to a generic number ID.
+- Sometimes the APOD API returns a video instead of an image. If this happens, the application should display the video thumbnail as an image, instead of the video.
 - Add text that reads "Loading images" to the `Home` component. This text should dissapear once the images are displayed.
 
 If you have any questions, please feel free to email <engineering@wearewiser.com>.
+
+###Notes:
+
+- Please ensure this task is built using the ReactJS library.
+- Feel free to install any additional packages.
+- The app should be responsive for desktop and mobile devices.
+- The app should be cross-browser compatible, the latest versions of Safari, Firefox and Chrome is fine.
 
 Good luck! :)
