@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Wiser | Front End Developer Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About this task
 
-## Available Scripts
+This task should be completed to be considered for the Front End Developer position at Wiser. The task will test your knowledge of JavaScript (React), styling and ability to accurately translate design files into code.
 
-In the project directory, you can run:
+## Instructions
 
-### `npm start`
+Fork this repo. When you have completed the task, push your code and email a link of your fork to <engineering@wearewiser.com> to let us know! The starter code for this task has been generated using [Create React App](https://github.com/facebook/create-react-app).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## The task
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Build an image gallery by fetching data from the NASA [Astronomy Picture of the Day](https://api.nasa.gov/) API.
 
-### `npm test`
+There should be two routes that should display two page components: `Home` and `ImageDetails`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###Home:
 
-### `npm run build`
+- Display 6 random images from the NASA APOD API, along with their corresponding titles.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Home](public/home.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###ImageDetails:
 
-### `npm run eject`
+- Each image displayed on the `Home` page component should be clickable.
+- On click of each image, a dynamic route should generated. The route should navigate to the `ImageDetails` page component, which should display the `url`, `title` and `explanation` of the image that was clicked on.
+- There should be a back button to return to the home page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![ImageDetails](public/image-details.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###Notes:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- The app should be responsive for desktop and mobile devices.
+- The app should be cross-browser compatible, the latest versions of Safari, Firefox and Chrome is fine.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+###Bonus points:
 
-## Learn More
+- The `ImageInfo` route path should use the `title` of the image that was clicked. For example, the path coud be `/galaxies-in-pegasus`, opposed to a generic number ID.
+- Sometimes the APOD API returns a video instead of an image. If this happens, the app should display the video thumbnail, instead of the video.
+- Add text that reads "Loading images" to the `Home` component. This text should dissapear once the images are displayed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you have any questions, please feel free to email <engineering@wearewiser.com>.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Good luck! :)
