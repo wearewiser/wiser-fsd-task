@@ -39,7 +39,7 @@ There should be a route for the `Home` component and a dynamic route for the `Im
 ### Notes:
 
 - Please ensure this task is built using the ReactJS library.
-- Feel free to install any additional packages that you feel are neccessaey.
+- Feel free to install any additional packages that you feel are necessary.
 - The app should be responsive for desktop and mobile devices.
 - The app should be cross-browser compatible, the latest versions of Safari, Firefox and Chrome is fine.
 
