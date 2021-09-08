@@ -6,7 +6,9 @@ This task should be completed to be considered for the Front End Developer posit
 
 ## Instructions
 
-Fork this repo. When you have completed the task, push your code and email a link of your fork to <engineering@wearewiser.com> to let us know! The starter code for this task has been generated using [Create React App](https://github.com/facebook/create-react-app).
+Clone this repo. When you have completed the task, please zip up the folder, and email it to <engineering@wearewiser.com> to let us know! 
+
+The starter code for this task has been generated using [Create React App](https://github.com/facebook/create-react-app). Run commands `npm i` to install the app, followed by `npm start` to run the app in development mode.
 
 ## The task
 
@@ -24,20 +26,20 @@ There should be two routes that should display two page components: `Home` and `
 
 - Each image displayed on the `Home` page component should be clickable.
 - On click of each image, a dynamic route should generated. The route should navigate to the `ImageDetails` page component, which should display the `url`, `title` and `explanation` of the image that was clicked on.
-- There should be a back button to return to the home page
+- There should be a back button to return to the home page.
 
 ![ImageDetails](public/image-details.png)
 
 ### Bonus points:
 
-- The `ImageDetails` route path should use the `title` of the image that was clicked. For example in the above design, the path would be `/spiral-galaxy-ngc-1232`, opposed to a generic number ID.
+- The `ImageDetails` route path should use the `title` of the image that was clicked. For example in the above design, the path would be `/image/spiral-galaxy-ngc-1232`, opposed to a generic number ID such as `/image/1`.
 - Sometimes the APOD API returns a video instead of an image. If this happens, the application should display the video thumbnail as an image, instead of the video.
 - Add text that reads "Loading images" to the `Home` component. This text should dissapear once the images are displayed.
 
 ### Notes:
 
 - Please ensure this task is built using the ReactJS library.
-- Feel free to install any additional packages.
+- Feel free to install any additional packages that you feel are neccessaey.
 - The app should be responsive for desktop and mobile devices.
 - The app should be cross-browser compatible, the latest versions of Safari, Firefox and Chrome is fine.
 
