@@ -14,7 +14,7 @@ The starter code for this task has been generated using [Create React App](https
 
 Build an image gallery by fetching data from the NASA [Astronomy Picture of the Day](https://api.nasa.gov/) API.
 
-There should be two routes that should display two page components: `Home` and `ImageDetails`.
+There should be one route for the `Home` component and a dynamic route for the `ImageDetails` component.
 
 ### Home:
 
