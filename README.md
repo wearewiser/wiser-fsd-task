@@ -126,6 +126,7 @@ Your final task will require that you setup some infrastructure to host your fro
 - Hosting production and non-production environments
 - Tag (git tag) based environment selection for prod and non prod deployments
 - Implements git workflow here: https://github.com/wearewiser/contributing
+- Repository enforces code signing on commits
 
 ## Good Luck!
 
